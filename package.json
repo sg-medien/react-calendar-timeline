@@ -1,7 +1,7 @@
 {
-  "name": "react-calendar-timeline",
+  "name": "react-calendar-timeline-extended",
   "version": "0.11.1",
-  "description": "react calendar timeline",
+  "description": "react calendar timeline extended",
   "main": "modules/index.js",
   "scripts": {
     "clean": "rimraf -rf ./build",
@@ -18,17 +18,18 @@
     "postversion": "git push origin `git rev-parse --abbrev-ref HEAD` && git push origin `git describe`",
     "npm:publish:next": "npm run release && cd build && npm publish --tag next",
     "npm:publish:latest": "npm run release && cd build && npm publish",
-    "info": "npm info react-calendar-timeline",
+    "info": "npm info react-calendar-timeline-extended",
     "start": "./node_modules/.bin/webpack-dev-server --inline --hot --host 0.0.0.0"
   },
-  "homepage": "https://github.com/namespace-ee/react-calendar-timeline",
+  "homepage": "https://github.com/sg-medien/react-calendar-timeline-extended",
   "repository": {
     "type": "git",
-    "url": "https://github.com/namespace-ee/react-calendar-timeline.git"
+    "url": "https://github.com/sg-medien/react-calendar-timeline-extended.git"
   },
   "author": "Marius Andra <marius.andra@gmail.com>",
   "contributors": [
-    "Stanisław Chmiela <sjchmiela@gmail.com>"
+    "Stanisław Chmiela <sjchmiela@gmail.com>",
+    "Sebastian Galler <info@sg-medien.com>"
   ],
   "license": "MIT",
   "keywords": [
