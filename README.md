@@ -1,4 +1,4 @@
-# React Calendar Timeline
+# React Calendar Timeline Extended
 
 A modern and responsive react timeline component.
 
